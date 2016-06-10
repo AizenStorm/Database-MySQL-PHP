@@ -81,7 +81,7 @@ $name=$rollno=$dept=$email=$address=$aboutme="";
             {
                 if($stmt->execute())
                 {
-                    echo "<br>successful";
+                    echo "<br>Successfully Edited!!";
                 }
                 else
                 {
@@ -105,10 +105,28 @@ $name=$rollno=$dept=$email=$address=$aboutme="";
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <title></title>
+        <style>
+        body{
+             font-family: "Comic Sans MS";
+       }
+       button{
+            background-color: lightgrey;
+            border: 1px solid grey;
+            border-radius: 5px;
+            padding: 5px;
+            outline: none;
+            font-size: 20px;
+            box-shadow:1px 1px 0 grey;
+            cursor: pointer;
+      }
+      button:active{
+                box-shadow:0px 0px 0 grey;
+                transform: translateY(1px);
+                transform:translateX(1px);
+     }
+    </style>
     </head>
     <body>
-        <a href="index.php"><button>RETURN</button></a>
+        <br><br><a href="index.php"><button>RETURN</button></a>
     </body>
 </html>

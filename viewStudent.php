@@ -54,11 +54,31 @@
             body{
                 font-family: "Comic Sans MS";
             }
-            form input{
-                border: 1px solid grey;
-            }
             span{
-                color: red;
+                color:red;
+                font-family: "Times New Roman";
+            }
+           input[type=text]{
+                border: 1px solid grey;
+                border-radius: 5px;
+                padding: 5px;
+            }
+            form textarea{
+                border: 1px solid grey;
+                border-radius: 5px;
+                font-family: 'Comic Sans MS';
+            }
+            select{
+                padding: 5px;
+                border-radius:5px;
+                font-size: 15px;
+            }
+            input[type=submit]{
+                padding: 5px;
+                border-radius:5px;
+                font-size: 20px;
+                cursor: pointer;
+                outline: none;
             }
         </style>
     </head>

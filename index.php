@@ -9,6 +9,23 @@
             body{
                 font-family: "Comic Sans MS";
             }
+            button{
+            background-color: lightgrey;
+            border: 1px solid grey;
+            border-radius: 5px;
+            padding: 5px;
+            outline: none;
+            font-size: 20px;
+            box-shadow:1px 1px 0 grey;
+            cursor: pointer;
+            margin-right: 80px;
+            width: 200px;
+            }
+            button:active{
+                box-shadow:0px 0px 0 grey;
+                transform: translateY(1px);
+                transform:translateX(1px);
+            }
         </style>
     </head>
     <body>
