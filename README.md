@@ -1,4 +1,4 @@
-# Spider-Webdev-2
+# Database-MySQL-PHP
 WebDev task 2
 
 Before you start using the pages on localhost,
